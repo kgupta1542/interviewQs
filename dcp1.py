@@ -1,15 +1,15 @@
 def findSumInList(x,k):
 	compls = [0] * (len(x))
-	isTrue = False;
+	isTrue = False
 	
 	for i in range(len(x)):
-		compl = k - x[i];
+		compl = k - x[i]
 		
 		if x[i] in compls:
 			isTrue = True
 			break
-		else:
-			compls[i] = compl
+		
+		compls[i] = compl
 		
 	return isTrue
 			
