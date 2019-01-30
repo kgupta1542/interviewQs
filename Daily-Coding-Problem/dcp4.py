@@ -1,3 +1,5 @@
+#Refer to Daily Coding Problem #3
+
 def findMissingInt(x):#find lower and upper, checks if in x, declares as missing, finds smallest missing
 	missing = 0
 	temp = -1
