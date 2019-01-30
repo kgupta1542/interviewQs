@@ -1,3 +1,5 @@
+#Refer to Daily Coding Problem #10
+
 from threading import Timer
 
 def jobScheduler(function, time):
