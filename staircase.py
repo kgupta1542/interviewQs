@@ -1,5 +1,4 @@
-#Problem Description: You have a staircase made up of N steps and the amount of steps that you can climb per step are in an array, X.
-#Find and return the amount of possible ways that you can climb the staircase with the possible step sizes.
+#Refer to Daily Coding Problem #12
 
 def numWays(n,x):#O(N) algorithm which optimizes storage space
 	x.sort()#Sort step size array
