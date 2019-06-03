@@ -21,4 +21,4 @@ def substrUniqueChars(k, s):#k - number of unique characters, s - input string
             
     return maxLength, final
 
-print(substrUniqueChars(2,"abcba"))
+print(substrUniqueChars(2,"abcba")) #Should return (3, "bcb")
